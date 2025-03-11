@@ -1,0 +1,106 @@
+/* Styling for modern UI buttons */
+.nav-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient effect */
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 30px; /* Fully rounded corners */
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80); /* Darker gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nav-btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Centering navigation buttons */
+.nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between buttons */
+}
+
+/* Styling for pages title */
+.page-title {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px; /* Larger text */
+    font-weight: bold;
+    font-family: 'Arial Black', sans-serif;
+    text-transform: uppercase; 
+    color: #333;
+    padding: 20px;
+}
+
+/* Apply styles only to the Availability page */
+.availability-page .upload-card {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+/* Make image preview look good */
+.availability-page #preview {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Make the results table look professional */
+.availability-page .table {
+    margin-top: 20px;
+}
+
+.availability-page .table-responsive {
+    overflow-x: auto;
+}
+
+/* Button Styling (ONLY for Availability page) */
+.availability-page .btn-primary {
+    background: linear-gradient(135deg, #007bff, #0056b3);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.availability-page .btn-primary:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80);
+    transform: translateY(-3px);
+}
+
+.availability-page .btn-success {
+    background: linear-gradient(135deg, #28a745, #1e7e34);
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.availability-page .btn-success:hover {
+    background: linear-gradient(135deg, #1e7e34, #155724);
+    transform: translateY(-3px);
+}
+
+
+
+
